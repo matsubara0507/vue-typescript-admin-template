@@ -4,7 +4,7 @@ node_modules
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/
-/tests/**/coverage/
+/tests/**/coverage
 
 # local env files
 .env.local
@@ -26,3 +26,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-vue-typescript-admin-template
